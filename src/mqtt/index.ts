@@ -10,7 +10,7 @@ export class MqttServer {
   async subscribeMessageTest(@MessageBody() message: string, @Client() client: MqttClient) {
     console.log(message);
 
-    const user = await this.userDao.getUserById(2);
-    console.log(user);
+    // const user = await this.userDao.getUserById(2);
+    // console.log(user);
   }
 }

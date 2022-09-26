@@ -4,11 +4,11 @@ const config: ConfigOptions = {
   port: 8901,
   rootPath: '/api',
   database: {
-    host: '47.98.172.209',
+    host: '127.0.0.1',
     port: 3306,
-    username: 'cloud_order',
-    password: 'GTXZNh2S2x4rRxxx',
-    database: 'cloud_order',
+    username: 'root',
+    password: '123456',
+    database: 'iot_share',
   },
 };
 

@@ -1,18 +1,31 @@
 import { Body, Controller, Get, Post, Query } from '@snow';
 import { UserDao } from '../dao/UserDao';
+import { AccountDao } from '../dao/AccountDao';
+
+const getDays = (ctime) => {
+  return Math.ceil(Math.abs(new Date().getTime() - new Date(ctime).getTime()) / 86400000);
+};
 
 @Controller('/user')
 export default class UserController {
   private readonly userDao = new UserDao();
+  private readonly accountDao = new AccountDao();
 
+  // 注册
   @Post('/addUser')
   async addUser(@Body() user) {
-    return await this.userDao.insert(user);
+    const ctime = new Date();
+    return await this.accountDao.insert({
+      ctime,
+      id: await this.userDao.insert({ ctime, role: '2', ...user }),
+    });
   }
 
   @Get('/findUserById')
   async findUser(@Query('id') id) {
-    return await this.userDao.selectById(id);
+    const info = await this.userDao.selectById(id);
+    const days = getDays(info.ctime);
+    return { days, ...info };
   }
 
   @Post('/findUserList')
@@ -21,6 +34,7 @@ export default class UserController {
     return await this.userDao.selectPage(queryParams, { page, size }, { dirc: 'desc', field: 'id' });
   }
 
+  // 修改密码
   @Post('/editUser')
   async editUser(@Body() user) {
     return await this.userDao.update(user.id, user);
@@ -29,5 +43,20 @@ export default class UserController {
   @Post('/deleteUser')
   async deleteUser(@Query('id') id) {
     return await this.userDao.deleteById(id);
+  }
+
+  // 登录
+  @Post('/login')
+  async login(@Body() body) {
+    const { userPhone, password } = body;
+    const user = await this.userDao.login(userPhone, password);
+
+    if (user.length) {
+      const days = getDays(user[0].ctime);
+      return { days, ...user[0] };
+    } else {
+      // @code
+      return null;
+    }
   }
 }
