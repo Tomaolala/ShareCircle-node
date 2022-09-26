@@ -18,7 +18,7 @@ export default class UserController {
   @Post('/findUserList')
   async findUserList(@Body() body) {
     const { page, size, ...queryParams } = body;
-    return await this.userDao.selectPage(queryParams, { page, size }, { dirc: 'desc', field: 'id' });
+    return await this.userDao.selectPage(queryParams, { page, size }, { dirc: 'desc', field: 'createDate' });
   }
 
   @Post('/editUser')

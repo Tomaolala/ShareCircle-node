@@ -225,3 +225,94 @@
 [32m  响应时间：252ms[39m
 [32m  当前响应体: {"records":[{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}],"total":2}[39m
 [32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUserList响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-26 20:26:51 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:27:34 [info] ### snow has been to starting -- http://localhost:8901/[39m
+[32m2022-09-26 20:27:38 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:32:30 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:36:18 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:36:51 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:44:12 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:45:39 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:51:56 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:53:15 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:53:57 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:54:21 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:55:53 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:56:12 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:57:13 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:57:35 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:58:49 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 20:59:02 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 21:03:41 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 21:04:07 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 21:04:09 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-26 21:07:39 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:40 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:41 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:42 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:43 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:44 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:45 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:46 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:47 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:48 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:49 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:50 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:51 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:52 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:53 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:54 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:55 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:56 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:57 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:58 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:07:59 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:08:00 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:08:01 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:08:02 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:08:03 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:08:04 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:08:05 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-26 21:08:58 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 21:08:58 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-26 21:26:24 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 21:26:28 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUserById?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUserById?id=2[39m
+[32m  IP: ::ffff:127.0.0.1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUserById?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-26 21:26:28 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-26 21:26:28 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUserById?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUserById?id=2[39m
+[32m  IP: ::ffff:127.0.0.1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：146ms[39m
+[32m  当前响应体: {"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUserById?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-26 21:26:53 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUserList响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUserList[39m
+[32m  当前请求: POST - /user/findUserList[39m
+[32m  IP: ::ffff:127.0.0.1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {}[39m
+[32m  当前请求体: {"page":1,"size":10}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUserList响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-26 21:26:53 [info] 执行sql:select * from users order by ?? desc limit ?, ? | 参数:["createDate",0,10][39m
+[32m2022-09-26 21:26:53 [info] 执行sql:select count(*) from users | 参数:[][39m
+[32m2022-09-26 21:26:53 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUserList响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: POST - /user/findUserList[39m
+[32m  IP: ::ffff:127.0.0.1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：67ms[39m
+[32m  当前响应体: {"records":[{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}],"total":2}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUserList响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-26 21:29:41 [info] ### snow has been to starting -- http://localhost:8901/api[39m
