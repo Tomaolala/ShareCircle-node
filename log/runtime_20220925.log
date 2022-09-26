@@ -1,0 +1,1059 @@
+[32m2022-09-25 00:56:05 [info] server is running[39m
+[32m2022-09-25 00:58:16 [info] server is running[39m
+[32m2022-09-25 00:59:43 [info] server is running[39m
+[32m2022-09-25 00:59:43 [info] localhost:8901/8901[39m
+[32m2022-09-25 00:59:51 [info] server is running[39m
+[32m2022-09-25 00:59:51 [info] localhost:8901/8901[39m
+[32m2022-09-25 00:59:57 [info] server is running[39m
+[32m2022-09-25 00:59:57 [info] localhost:8901//api[39m
+[32m2022-09-25 01:00:03 [info] server is running[39m
+[32m2022-09-25 01:00:03 [info] localhost:8901/api[39m
+[32m2022-09-25 01:00:12 [info] server is running[39m
+[32m2022-09-25 01:00:12 [info] http://localhost:8901/api[39m
+[32m2022-09-25 01:00:38 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:00:38 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:00:38 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：161ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:00:45 [info] server is running[39m
+[32m2022-09-25 01:00:45 [info] http://localhost:8901/api[39m
+[32m2022-09-25 01:01:11 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:01:21 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:01:34 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:01:37 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:01:37 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:01:37 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：136ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:05:55 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:08:13 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:08:26 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:08:30 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:08:30 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:08:31 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:08:31 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：1051ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:17:17 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:18:04 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:18:06 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:18:06 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:18:06 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:18:06 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：337ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:18:36 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:18:38 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:18:38 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:18:38 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：192ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:20:18 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:21:00 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:22:09 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:24:19 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:29:13 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:30:01 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:30:41 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:31:06 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:31:48 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:31:50 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:31:55 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:31:55 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:31:55 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:31:55 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：266ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:32:54 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:33:09 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:33:32 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:34:02 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:43:06 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:47:28 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:48:21 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:50:03 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:50:20 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:50:28 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m2022-09-25 01:50:28 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: TypeError: Cannot read property 'tableName' of undefined[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:53:15 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:58:14 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:58:23 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:58:33 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:58:33 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:58:33 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:58:33 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：327ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:59:06 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:59:14 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:59:21 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m2022-09-25 01:59:21 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: Error: 初始化Dao未指定数据库表名[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:59:28 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 01:59:30 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:59:30 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:59:30 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 01:59:30 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：348ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 01:59:50 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:00:19 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:00:24 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:11:54 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:13:47 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:13:54 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 02:13:54 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 02:13:54 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 02:13:54 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：232ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 02:14:25 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:14:26 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 02:14:26 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 02:14:26 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 02:14:26 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：262ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 02:15:29 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:15:55 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 02:15:55 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 02:15:55 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 02:15:55 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：194ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 02:16:01 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:16:22 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:16:40 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:16:43 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 02:16:43 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 02:16:43 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 02:16:43 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：269ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 02:16:52 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:16:56 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:18:07 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:18:10 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 02:18:10 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 02:18:10 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 02:18:10 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：182ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 02:19:35 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:30:41 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:47:35 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:47:57 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:51:47 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 02:53:30 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:01:37 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:02:09 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:03:47 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:03:57 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:04:14 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:04:35 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:07:36 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:07:41 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:07:41 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:07:41 [info] 执行sql:select * from users where `id` = ? limit 1, 10 order by desc, aa | 参数:["2"][39m
+[31m2022-09-25 03:07:41 [error] 数据库错误:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by desc, aa' at line 1[39m
+[31m2022-09-25 03:07:41 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: DatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by desc, aa' at line 1[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:08:36 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:08:39 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:08:39 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:08:39 [info] 执行sql:select * from users where `id` = ? limit 1, 10 order by desc aa | 参数:["2"][39m
+[31m2022-09-25 03:08:39 [error] 数据库错误:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by desc aa' at line 1[39m
+[31m2022-09-25 03:08:39 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: DatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by desc aa' at line 1[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:09:41 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:14:21 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:14:30 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:14:30 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:14:31 [info] 执行sql:select * from users where `id` = ? limit 1, 10 order by desc aa | 参数:["2"][39m
+[31m2022-09-25 03:14:31 [error] 数据库错误:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by desc aa' at line 1[39m
+[31m2022-09-25 03:14:31 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: DatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by desc aa' at line 1[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:16:21 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:17:20 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:18:11 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:19:01 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:19:25 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:19:28 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:19:28 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:19:28 [info] 执行sql:select * from users where `id` = ? limit ?, ? order by desc ?? | 参数:["2",1,10,"aa"][39m
+[31m2022-09-25 03:19:28 [error] 数据库错误:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by desc `aa`' at line 1[39m
+[31m2022-09-25 03:19:28 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: DatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by desc `aa`' at line 1[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:20:06 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:20:10 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:20:14 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:20:14 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:20:14 [info] 执行sql:select * from users where `id` = ? order by desc ?? | 参数:["2","aa"][39m
+[31m2022-09-25 03:20:14 [error] 数据库错误:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc `aa`' at line 1[39m
+[31m2022-09-25 03:20:14 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: DatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc `aa`' at line 1[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:24:45 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:24:50 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:24:50 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:24:50 [info] 执行sql:select * from users where `id` = ? order by ?? desc | 参数:["2","aa"][39m
+[31m2022-09-25 03:24:50 [error] 数据库错误:Unknown column 'aa' in 'order clause'[39m
+[31m2022-09-25 03:24:50 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: DatabaseError: Unknown column 'aa' in 'order clause'[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:27:29 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:27:35 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:27:35 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:27:35 [info] 执行sql:select * from users where `id` = ? order by ?? desc | 参数:["2","aa"][39m
+[31m2022-09-25 03:27:35 [error] 数据库错误:Unknown column 'aa' in 'order clause'[39m
+[31m2022-09-25 03:27:35 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: DatabaseError: Unknown column 'aa' in 'order clause'[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:28:25 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:28:28 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:28:28 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:28:28 [info] 执行sql:select * from users where `id` = ? order by ?? desc | 参数:["2","age"][39m
+[32m2022-09-25 03:28:28 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：188ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:29:19 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:29:24 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:29:24 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:29:24 [info] 执行sql:select * from users order by ?? desc | 参数:["age"][39m
+[32m2022-09-25 03:29:24 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：190ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:29:38 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:29:40 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:29:40 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:29:40 [info] 执行sql:select * from users order by ?? asc | 参数:["age"][39m
+[32m2022-09-25 03:29:40 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：159ms[39m
+[32m  当前响应体: [{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1},{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:29:48 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:29:49 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:29:49 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:29:49 [info] 执行sql:select * from users order by ?? asc | 参数:["id"][39m
+[32m2022-09-25 03:29:49 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：178ms[39m
+[32m  当前响应体: [{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1},{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:29:53 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 03:29:54 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 03:29:54 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 03:29:54 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 03:29:55 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：185ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:49:02 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:49:05 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:49:05 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 14:49:05 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 14:49:05 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：180ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:50:47 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:50:49 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:50:49 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 14:50:49 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 14:50:49 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：190ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:50:52 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:50:52 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 14:50:52 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 14:50:52 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：63ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:52:17 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:52:20 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:52:20 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 14:52:20 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 14:52:20 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：162ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:52:43 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:52:48 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:52:50 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:52:50 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 14:52:51 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 14:52:51 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：169ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:53:05 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:53:08 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:53:10 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:53:10 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 14:53:10 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 14:53:10 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：181ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:53:47 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:53:49 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:53:52 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:53:52 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 14:53:52 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 14:53:52 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：187ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:55:00 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:55:02 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:55:05 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:55:05 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[31m2022-09-25 14:55:05 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: Error: config.ts不存在[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:55:17 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:56:25 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:56:35 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:56:40 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:56:40 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 14:56:40 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 14:56:40 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：206ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:56:50 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:56:50 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 14:56:50 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 14:56:50 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：62ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:57:03 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:57:10 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:57:10 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[31m2022-09-25 14:57:10 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: Error: 配置文件config.ts不存在database数据库配置项[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 14:57:16 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 14:57:56 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:04:24 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:04:32 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:16:39 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:17:01 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 16:17:01 [info] 执行sql:select * from user order by ?? desc | 参数:["id"][39m
+[31m2022-09-25 16:17:01 [error] 数据库错误:Table 'cloud_order.user' doesn't exist[39m
+[31m2022-09-25 16:17:01 [error] [39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[31m  错误信息: DatabaseError: Table 'cloud_order.user' doesn't exist[39m
+[31m  请求路径: /api/user/findUser?id=2[39m
+[31m  请求方法: GET[39m
+[31m  IP: ::1[39m
+[31m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 16:17:29 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:17:31 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 16:17:31 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 16:17:31 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：140ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 16:17:57 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:18:00 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 16:18:00 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 16:18:00 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：142ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 16:18:10 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:34:27 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:34:35 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:36:59 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:37:04 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 16:37:04 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 16:37:04 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 16:37:04 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：316ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 16:37:28 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:37:33 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:37:36 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 16:37:36 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 16:37:37 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 16:37:37 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：323ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 16:38:02 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:42:35 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:42:50 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 16:52:27 [info] server is running -- http://localhost:8901/api[39m
+[32m2022-09-25 18:20:23 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 18:20:23 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 18:20:23 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 18:20:23 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：161ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 18:21:55 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前类名: UserController[39m
+[32m  当前方法名: findUser[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前Params参数: {}[39m
+[32m  当前Query参数: {"id":"2"}[39m
+[32m  当前请求体: {}[39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应开始<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 18:21:55 [info] 执行sql:select * from users where `id` = ? | 参数:["2"][39m
+[32m2022-09-25 18:21:55 [info] 执行sql:select * from users order by ?? desc | 参数:["id"][39m
+[32m2022-09-25 18:21:55 [info] [39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m  当前请求: GET - /user/findUser?id=2[39m
+[32m  IP: ::1[39m
+[32m  当前用户: 'coderixe'[39m
+[32m  响应时间：182ms[39m
+[32m  当前响应体: [{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}][39m
+[32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUser?id=2响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[32m2022-09-25 20:48:59 [info] ###snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:49:02 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:49:26 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:49:26 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:52:09 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:52:22 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:52:22 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:52:22 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:52:26 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:52:26 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:52:26 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:52:36 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:52:36 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:52:36 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:53:22 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:53:22 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:53:22 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:53:24 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:53:24 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:53:24 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:53:40 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:53:40 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:54:48 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:54:48 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:55:16 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:55:16 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:55:19 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 20:55:19 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 20:55:41 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-25 22:11:41 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 22:11:45 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:12:38 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:14:30 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 22:14:30 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:14:51 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 22:14:51 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:16:15 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 22:16:15 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:18:21 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 22:18:21 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:32:21 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 22:32:21 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:32:27 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-25 22:32:45 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:33:26 [info] 执行sql:select * from users where `id` = ? | 参数:[2][39m
+[32m2022-09-25 22:43:38 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 22:43:38 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:43:42 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:44:07 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:54:48 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
+[32m2022-09-25 22:55:12 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-25 22:55:12 [info] ### mqtt connect success -- mqtt://127.0.0.1:1883[39m
