@@ -27,7 +27,7 @@ module.exports = {
     let { tablePrefix = '', tables } = data;
     tablePrefix = tablePrefix.trim();
     tables = tables.trim();
-    if (tablePrefix.length && tablePrefix.charAt(tablePrefix.length) !== '_') {
+    if (tablePrefix.length && tablePrefix.charAt(tablePrefix.length - 1) !== '_') {
       tablePrefix = tablePrefix.concat('_');
     }
     const tableList = tables.split(',') || [];
