@@ -6,11 +6,11 @@ export default class UserController {
   private readonly userDao = new UserDao();
 
   @Post('/addUser')
-  async addUser(@Body() user) {
-    return await this.userDao.insert(user);
+  async addUser(@Body() body) {
+    return await this.userDao.insert(body);
   }
 
-  @Get('/findUserById')
+  @Post('/findUserById')
   async findUser(@Query('id') id) {
     return await this.userDao.selectById(id);
   }
@@ -22,8 +22,8 @@ export default class UserController {
   }
 
   @Post('/editUser')
-  async editUser(@Body() user) {
-    return await this.userDao.update(user.id, user);
+  async editUser(@Body() body) {
+    return await this.userDao.update(body.id, body);
   }
 
   @Post('/deleteUser')

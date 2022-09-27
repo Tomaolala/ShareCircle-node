@@ -316,3 +316,4 @@
 [32m  当前响应体: {"records":[{"username":"coderxie","password":"1232134412","sex":"1","age":18,"createDate":1663674972760,"updateDate":1663784629774,"id":2},{"username":"18973835153","password":"123456789123123","sex":"1","age":12,"createDate":1659785940599,"updateDate":1659785940599,"id":1}],"total":2}[39m
 [32m<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</user/findUserList响应结束<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
 [32m2022-09-26 21:29:41 [info] ### snow has been to starting -- http://localhost:8901/api[39m
+[32m2022-09-26 21:31:37 [info] ### snow has been to starting -- http://localhost:8901/api[39m
