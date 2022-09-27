@@ -40,7 +40,7 @@ server.on('published', (packet: Packet, client: Client) => {
 
 server.on('subscribed', (topic: string, client: Client) => {
   if (!topic || !client) return;
-
+  // 重传
   if (failMsgTopicMap.has(topic)) {
     const failMsg = failMsgTopicMap.get(topic) || [];
     failMsg.forEach((packet) => {
