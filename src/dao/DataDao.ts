@@ -1,4 +1,4 @@
 import { BaseDao, Dao, Sql } from '@snow';
 
-@Dao('iot_sharedata')
+@Dao('iot_share_data')
 export class DataDao extends BaseDao {}
