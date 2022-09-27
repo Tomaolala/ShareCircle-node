@@ -1,7 +1,7 @@
 import { BaseDao, Dao, Sql } from '@snow';
 
-@Dao('users')
+@Dao('iot_share_user')
 export class UserDao extends BaseDao {
-  @Sql('select * from users where `id` = ?')
+  @Sql('select * from iot_share_user where `id` = ?')
   async getUserById(id: number) {}
 }

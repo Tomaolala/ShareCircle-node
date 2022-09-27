@@ -4,10 +4,26 @@ import { UserDao } from '../dao/UserDao';
 @Controller('/user')
 export default class UserController {
   private readonly userDao = new UserDao();
-
+  
   @Post('/addUser')
   async addUser(@Body() user) {
     return await this.userDao.insert(user);
+  }
+  @Post('/userLogin')
+  async userLogin(@Body() user) {
+    let res = await this.userDao.selectById(user.id);
+    if (!res)
+      return {
+        msg: '账号不存在',
+      };
+    else if (res.password === user.password) {
+      return {
+        msg: 'ok',
+      };
+    } else
+      return {
+        msg: '密码错误',
+      };
   }
 
   @Get('/findUserById')
