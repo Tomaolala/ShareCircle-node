@@ -6,9 +6,9 @@ const config: ConfigOptions = {
   database: {
     host: '47.98.172.209',
     port: 3306,
-    username: 'cloud_order',
-    password: 'GTXZNh2S2x4rRxxx',
-    database: 'cloud_order',
+    username: 'iot_share',
+    password: 'i62EYm6c8NsH2GFr',
+    database: 'iot_share',
   },
 };
 
