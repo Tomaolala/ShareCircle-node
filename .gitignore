@@ -1,7 +1,6 @@
 
 logs/
 log/
-*.log
 npm-debug.log
 yarn-error.log
 node_modules/
