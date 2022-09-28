@@ -8,12 +8,17 @@ import Logger from '../../logger';
 export function useMqtt(mqttServer: any) {
   const host = Reflect.getMetadata(META_KEYS.HOST, mqttServer.constructor);
   const port = Reflect.getMetadata(META_KEYS.PORT, mqttServer.constructor);
-
+  const opts = Reflect.getMetadata(META_KEYS.OPTS, mqttServer.constructor);
+  const mqttInstance = Reflect.getMetadata(META_KEYS.MQTT_INSTANCE, mqttServer);
   const topicsMap: TopicsMap = Reflect.getMetadata(META_KEYS.TOPICS, mqttServer);
 
-  const client: MqttClient = mqtt.connect(`mqtt://${host}:${port}`, {
-    clientId: 'node-server',
-  });
+  console.log(mqttInstance);
+
+  const client: MqttClient = mqtt.connect(`mqtt://${host}:${port}`, opts);
+
+  if (mqttInstance) {
+    mqttServer[mqttInstance] = client;
+  }
 
   client.on('connect', function () {
     Logger.info(`### mqtt connect success -- mqtt://${host}:${port}`);
