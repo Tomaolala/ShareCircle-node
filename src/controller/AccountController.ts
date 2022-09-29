@@ -12,7 +12,7 @@ export default class AccountController {
   }
 
   @Get('/findAccountById')
-  async findAccount(@Query('id') id) {
+  async findAccount(@Query('id') id){
     return await this.accountDao.selectById(id);
   }
 

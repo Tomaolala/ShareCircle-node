@@ -1,14 +1,26 @@
 import { Body, Controller, Get, Post, Query } from '@snow';
 import { PayDao } from '../dao/PayDao';
+import { AccountDao } from '../dao/AccountDao';
+import { CustomError } from '@snow/excption/index';
 
 @Controller('/pay')
 export default class PayController {
   private readonly payDao = new PayDao();
+  private readonly accountDao = new AccountDao();
 
   // 新增支付
   @Post('/addPay')
   async addPay(@Body() pay) {
-    return await this.payDao.insert({ ctime: new Date(), ...pay });
+    // 新增支付
+    await this.payDao.insert({ ctime: new Date(), ...pay });
+    // 扣账户余额
+    const { payMoney, userId } = pay;
+    const account = await this.accountDao.selectById(userId);
+    if (account.money < payMoney) {
+      throw new CustomError(500, '您的账户余额不足');
+    } else {
+      return await this.accountDao.update(userId, { money: account.money - payMoney });
+    }
   }
 
   @Get('/findPayById')

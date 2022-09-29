@@ -25,12 +25,12 @@ export function useController(controllerDir: string) {
           const startTime = requestLog(req, controller.name, methodName);
           const injections = getInjectionsPerRequest({ instance, methodName, req, res, next });
           const data = await instance[methodName](...injections);
-          res.json({ data });
+          res.json({ code: 200, data });
           resopseLog(req, data, startTime);
         } catch (error) {
           res.status(500);
           res.json({
-            error: error?.name || 'unknown',
+            code: error?.code || 400,
             message: error?.message || 'system error',
           });
           errorLog(req, error);

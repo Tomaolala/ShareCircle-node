@@ -109,7 +109,7 @@ export class BaseDao {
    * 示例：selectById(5)
    * sql:`select * from tableName where primaryKey = ?`
    */
-  async selectById(id: string | number) {
+  async selectById(id: string | number): Promise<any> {
     if (!id && id !== 0) throw new Error('selectById缺少id参数');
     const sql = `select * from ${this.tableName} where \`${this.primaryKey}\` = ?`;
     Logger.sql(sql, [id]);

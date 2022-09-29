@@ -1,6 +1,7 @@
 import { Body, Controller, Get, Post, Query } from '@snow';
 import { UserDao } from '../dao/UserDao';
 import { AccountDao } from '../dao/AccountDao';
+import { CustomError } from '@snow/excption/index';
 
 const getDays = (ctime) => {
   return Math.ceil(Math.abs(new Date().getTime() - new Date(ctime).getTime()) / 86400000);
@@ -15,10 +16,14 @@ export default class UserController {
   @Post('/addUser')
   async addUser(@Body() user) {
     const ctime = new Date();
-    return await this.accountDao.insert({
+    await this.accountDao.insert({
       ctime,
       id: await this.userDao.insert({ ctime, role: '2', ...user }),
     });
+    const userInfo = await this.userDao.login(user.userPhone, user.password);
+    const days = getDays(userInfo[0].ctime);
+    
+    return { days, ...userInfo[0] };
   }
 
   @Get('/findUserById')
@@ -56,7 +61,7 @@ export default class UserController {
       return { days, ...user[0] };
     } else {
       // @code
-      return null;
+      throw new CustomError(500, '密码错误，登录失败！');
     }
   }
 }
