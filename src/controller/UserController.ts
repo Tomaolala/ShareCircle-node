@@ -22,7 +22,7 @@ export default class UserController {
     });
     const userInfo = await this.userDao.login(user.userPhone, user.password);
     const days = getDays(userInfo[0].ctime);
-    
+
     return { days, ...userInfo[0] };
   }
 
