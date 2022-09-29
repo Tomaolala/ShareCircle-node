@@ -1,16 +1,11 @@
-import { Client, MessageBody, MqttGateway, SubscribeMessage } from '@snow';
+import { Client, MessageBody, MqttGateway, SubscribeMessage, MqttInstance } from '@snow';
 import { MqttClient } from 'mqtt';
-import { UserDao } from '../dao/UserDao';
 
-@MqttGateway('127.0.0.1', 1883)
+@MqttGateway('127.0.0.1', 1883, { clientId: 'node-server' })
 export class MqttServer {
-  private readonly userDao = new UserDao();
+  @MqttInstance()
+  mqttClient: MqttClient;
 
   @SubscribeMessage('test')
-  async subscribeMessageTest(@MessageBody() message: string, @Client() client: MqttClient) {
-    console.log(message);
-
-    // const user = await this.userDao.getUserById(2);
-    // console.log(user);
-  }
+  async subscribeMessageTest(@MessageBody() message: string, @Client() client: MqttClient) {}
 }

@@ -103,6 +103,23 @@ export class BaseDao {
   }
 
   /**
+   * 根据条件查询一条数据
+   * 根据`params`对象的key值拼凑出sql语句的where条件，并使用and连接
+   * @param {object} params 查询条件参数
+   *
+   * todo:1. TS
+   *
+   *
+   * 示例：select({UserType, Name}
+   * sql: `select * from tableName where user_type=? and name=? limt 0, 1`
+   */
+  async selectOne(params?: { [index: string]: any }) {
+    const result = await this.select(params, { page: 1, size: 1 });
+    rowsDataIntercept(result);
+    return result.length > 0 ? result[0] : null;
+  }
+
+  /**
    * 根据主键查询数据
    * @param {string|number} id 主键值
    *
