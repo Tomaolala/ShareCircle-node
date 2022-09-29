@@ -28,9 +28,10 @@ export function useController(controllerDir: string) {
           res.json({ code: 200, data });
           resopseLog(req, data, startTime);
         } catch (error) {
-          res.status(500);
+          const statusCode = error?.code || 500;
+          res.status(statusCode);
           res.json({
-            code: error?.code || 400,
+            code: statusCode,
             message: error?.message || 'system error',
           });
           errorLog(req, error);
