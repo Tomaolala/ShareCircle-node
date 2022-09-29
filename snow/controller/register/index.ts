@@ -30,7 +30,7 @@ export function useController(controllerDir: string) {
         } catch (error) {
           res.status(500);
           res.json({
-            error: error?.name || 'unknown',
+            code: error?.code || 400,
             message: error?.message || 'system error',
           });
           errorLog(req, error);

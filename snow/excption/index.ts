@@ -63,9 +63,11 @@ export class SystemError extends Error {
  * 自定义异常：需要自己定义CODE
  */
 export class CustomError extends Error {
-  constructor(code: string, message?: string) {
+  code: number;
+  constructor(code: number, message?: string) {
     super();
-    this.name = code;
+    this.code = code;
+    this.name = 'error';
     this.message = message;
   }
 }
