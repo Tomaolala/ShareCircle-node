@@ -12,7 +12,7 @@ export default class {{bigCamelTableName}}Controller {
 
   @Post('/find{{bigCamelTableName}}ById')
   async find{{bigCamelTableName}}(@Query('id') id) {
-    return await this.{{tableName}}Dao.selectById(id);
+    return await this.{{tableName}}Dao.selectOne(id);
   }
 
   @Post('/find{{bigCamelTableName}}List')

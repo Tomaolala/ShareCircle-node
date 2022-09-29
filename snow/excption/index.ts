@@ -2,8 +2,10 @@
  * 参数异常：适用于接口或者方法调用参数少传或者错传的情况
  */
 export class ParamsError extends Error {
+  code: number;
   constructor(message?: string) {
     super();
+    this.code = 403;
     this.name = 'ParamsError';
     this.message = message || '参数异常';
   }
@@ -12,8 +14,10 @@ export class ParamsError extends Error {
  * 数据库异常：适用于数据库操作发生的异常
  */
 export class DatabaseError extends Error {
+  code: number
   constructor(message?: string) {
     super();
+    this.code = 403;
     this.name = 'DatabaseError';
     this.message = message || '数据库异常';
   }
@@ -63,9 +67,11 @@ export class SystemError extends Error {
  * 自定义异常：需要自己定义CODE
  */
 export class CustomError extends Error {
-  constructor(code: string, message?: string) {
+  code: number;
+  constructor(code: number, message?: string) {
     super();
-    this.name = code;
+    this.code = code;
+    this.name = 'error';
     this.message = message;
   }
 }
