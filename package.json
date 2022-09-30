@@ -32,6 +32,7 @@
   "dependencies": {
     "@types/mosca": "^2.8.4",
     "body-parser": "^1.19.0",
+    "dayjs": "^1.11.5",
     "express": "^4.17.1",
     "moment": "^2.29.4",
     "mosca": "^2.8.3",

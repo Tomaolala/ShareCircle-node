@@ -20,4 +20,12 @@ export default class AccoutController {
     async getAccoutById(@Query("id") id){
         return await this.accoutdao.selectById(id)
     }
+    
+    @Post("/changeMoney")
+    async changeMoney(@Body() body){
+        return await this.accoutdao.update(body.id,{
+            "pay_money":body.money
+        })
+    }
+
 }

@@ -17,9 +17,15 @@ export default class UserController {
         msg: '账号不存在',
       };
     else if (res.password === user.password) {
-      return {
-        msg: 'ok',
-      };
+      if(res.role=="user"){
+        return {
+          msg: 'user',
+        };
+      }else{
+        return {
+          msg:"admin"
+        }
+      }
     } else
       return {
         msg: '密码错误',
