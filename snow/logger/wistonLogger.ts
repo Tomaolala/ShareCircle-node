@@ -17,12 +17,12 @@ const wistonLogger: Logger = createLogger({
     }),
   ),
   transports: [
-    new transports.File({ filename: './log/runtime_error.log', level: 'error' }),
+    new transports.File({ filename: './logs/runtime_error.log', level: 'error' }),
     new DailyRotateFile({
-      filename: './log/runtime_%DATE%.log',
+      filename: './logs/runtime_%DATE%.log',
       datePattern: 'YYYYMMDD',
       zippedArchive: false,
-      maxSize: '5g',
+      maxSize: '1g',
       maxFiles: '14d',
     }),
   ],
