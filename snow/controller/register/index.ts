@@ -4,11 +4,12 @@ import { RouteDefinition } from '../types';
 import { getInjectionsPerRequest, Injector } from '../decorators/injector';
 import { META_KEYS } from '../decorators/constants';
 import { errorLog, requestLog, resopseLog } from '../../logger/httpLogger';
+import path from 'path';
 
 const app = Router();
 
 export function useController(controllerDir: string) {
-  const controllers = getAllFiles(controllerDir, []);
+  const controllers = getAllFiles(path.join(__dirname, `../../../${controllerDir}`), []);
 
   controllers.forEach((c) => {
     const obj = require(c.path);
@@ -25,12 +26,13 @@ export function useController(controllerDir: string) {
           const startTime = requestLog(req, controller.name, methodName);
           const injections = getInjectionsPerRequest({ instance, methodName, req, res, next });
           const data = await instance[methodName](...injections);
-          res.json({ data });
+          res.json({ code: 200, data });
           resopseLog(req, data, startTime);
         } catch (error) {
-          res.status(500);
+          const statusCode = error?.code || 500;
+          res.status(statusCode);
           res.json({
-            error: error?.name || 'unknown',
+            code: statusCode,
             message: error?.message || 'system error',
           });
           errorLog(req, error);

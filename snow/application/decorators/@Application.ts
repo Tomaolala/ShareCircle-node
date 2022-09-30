@@ -22,7 +22,7 @@ export function Application(controllerScanPath = './src/controller'): ClassDecor
     app.use('/static', express.static('public'));
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: false }));
-    app.use(rootPath, useController(path.join(process.cwd(), controllerScanPath)));
+    app.use(rootPath, useController(controllerScanPath));
 
     target.prototype.app = app;
 
@@ -35,7 +35,7 @@ export function Application(controllerScanPath = './src/controller'): ClassDecor
     app.listen(port, () => {
       if (fs.existsSync(path.join(process.cwd(), './banner.txt'))) {
         console.log(fs.readFileSync(path.join(process.cwd(), './banner.txt'), 'utf8'));
-      } else {
+      } else if (fs.existsSync(path.join(__dirname, './banner.txt'))) {
         console.log(fs.readFileSync(path.join(__dirname, './banner.txt'), 'utf8'));
       }
       Logger.info(`### snow has been to starting -- http://localhost:${port}${rootPath}`);

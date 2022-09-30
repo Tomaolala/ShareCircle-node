@@ -6,7 +6,9 @@
   "scripts": {
     "start": "tsnd -r tsconfig-paths/register --respawn ./src/index.ts",
     "build": "tsc && tsc-alias",
-    "mqtt-proxy": "ts-node ./mqtt-proxy"
+    "start:prod": "node ./dist/src/index.js",
+    "mqtt-proxy": "node ./mqtt-proxy",
+    "new": "plop"
   },
   "nodemonConfig": {
     "ignore": [
@@ -26,6 +28,7 @@
     "@types/validator": "^13.1.0",
     "cors": "^2.8.5",
     "nodemon": "^2.0.6",
+    "plop": "^3.1.1",
     "ts-node": "^9.0.0",
     "typescript": "^4.5.2"
   },
