@@ -11,9 +11,6 @@ export function useMqtt(mqttServer: any) {
   const opts = Reflect.getMetadata(META_KEYS.OPTS, mqttServer.constructor);
   const mqttInstance = Reflect.getMetadata(META_KEYS.MQTT_INSTANCE, mqttServer);
   const topicsMap: TopicsMap = Reflect.getMetadata(META_KEYS.TOPICS, mqttServer);
-
-  console.log(mqttInstance);
-
   const client: MqttClient = mqtt.connect(`mqtt://${host}:${port}`, opts);
 
   if (mqttInstance) {

@@ -24,8 +24,8 @@ export class Configuration {
    */
   getConfig(expression?: string) {
     if (!this.config) {
-      const configPath = path.join(process.cwd(), 'config.ts');
-      if (fs.existsSync(configPath)) {
+      const configPath = path.join(__dirname, '../../config');
+      if (fs.existsSync(`${configPath}.js`) || fs.existsSync(`${configPath}.ts`)) {
         this.config = require(configPath).default || {};
       } else {
         this.config = {};
