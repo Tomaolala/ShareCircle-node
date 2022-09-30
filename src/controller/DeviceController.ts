@@ -2,6 +2,7 @@ import { Body, Controller, Get, Post, Query } from '@snow';
 import { DeviceDao } from '../dao/DeviceDao';
 import { OrderDao } from '../dao/OrderDao';
 import { PayDao } from '../dao/PayDao';
+import { BatteryDao } from '../dao/BatteryDao';
 import { CustomError } from '@snow/excption/index';
 
 // 1-开启，2-关闭，3-待机，4-有异常
@@ -10,6 +11,7 @@ export default class DeviceController {
   private readonly deviceDao = new DeviceDao();
   private readonly orderDao = new OrderDao();
   private readonly payDao = new PayDao();
+  private readonly batteryDao = new BatteryDao();
 
   @Post('/addDevice')
   async addDevice(@Body() device) {
@@ -32,14 +34,15 @@ export default class DeviceController {
   @Post('/findBikeList')
   async findBikeList(@Body() body) {
     const { page, size, ...queryParams } = body;
-    return await this.deviceDao.selectPage({ ...queryParams, type: 1 }, { page, size }, { dirc: 'desc', field: 'id' });
+    return await this.deviceDao.selectPage({ ...queryParams, type: 1 }, { page, size });
   }
 
   // 查询电车详情
   @Get('/findBikeDetail')
   async findBikeDetail(@Query('id') id) {
     const bike = await this.deviceDao.selectById(id);
-    return bike;
+    const battery = await this.batteryDao.selectById(bike.battery_id);
+    return { ...bike, battery };
   }
 
   // 开车
@@ -54,12 +57,14 @@ export default class DeviceController {
     } else {
       // 更改电车状态
       await this.deviceDao.update(device.id, { ...device, status: '1' });
+      const bike = await this.deviceDao.selectById(device.id);
       // 新建订单
       await this.orderDao.insert({
         tram_id: device.id,
         user_id: userId,
         status: '1',
         ctime: new Date(),
+        start_location: bike.location,
       });
       return {};
     }
@@ -81,18 +86,21 @@ export default class DeviceController {
   // 还车
   @Post('/exitDevice')
   async exitDevice(@Body() device) {
-    const { userId } = device;
+    const { userId, location } = device;
     const bike = await this.deviceDao.selectById(device.id);
     if (['1', '3'].includes(bike?.status)) {
       // 更改电车状态
-      await this.deviceDao.update(device.id, { status: '2', userId: null });
+      await this.deviceDao.update(device.id, { status: '2', userId: null, location });
       // 更改订单
       const order = (await this.orderDao.findOrderListByUserId(userId)).filter((v) => v.status === '1')[0];
       const startTime = new Date();
-      const payment = Math.ceil(Math.abs(startTime.getTime() - new Date(order.ctime).getTime()) / 1000 / 60) * 0.5;
-      await this.orderDao.update(order.id, { status: '2', startTime, payment });
-      // await this.payDao.insert({ order_id: order.id, user_id: userId, pay_money: payment });
-      return {};
+      const payment = (((startTime.getTime() - new Date(order.ctime).getTime()) / 1000 / 60) * 0.5).toFixed(2);
+      await this.orderDao.update(order.id, { status: '2', startTime, payment, end_location: location });
+      return {
+        order_id: order.id,
+        pay_money: payment,
+        user_id: userId,
+      };
     } else {
       throw new CustomError(500, '当前车辆不支持还车操作');
     }

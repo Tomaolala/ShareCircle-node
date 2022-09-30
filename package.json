@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsnd -r tsconfig-paths/register --respawn ./src/index.ts",
     "build": "tsc && tsc-alias",
-    "mqtt-proxy": "ts-node ./mqtt-proxy",
+    "mqtt-proxy": "node ./mqtt-proxy",
     "new": "plop"
   },
   "nodemonConfig": {

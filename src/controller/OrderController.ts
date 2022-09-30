@@ -7,6 +7,7 @@ export default class OrderController {
 
   @Post('/addOrder')
   async addOrder(@Body() order) {
+    await this.orderDao.insert(order)
     return await this.orderDao.insert(order);
   }
 
