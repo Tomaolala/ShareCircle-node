@@ -3,10 +3,25 @@ const config = require('./config');
 
 const { port, hardwareClientId } = config;
 
+const mqttSetting={
+  interfaces:[
+    {
+      type:"mqtt",
+      port:"1883"
+    },
+    {
+      type:"http",
+      port:"1884",
+      bundle:true
+    }
+  ]
+}
+
+
 const connector = new Set();
 const failMsgTopicMap = new Map();
 
-const server = new mosca.Server({ port });
+const server = new mosca.Server(mqttSetting);
 
 server.on('ready', setup);
 

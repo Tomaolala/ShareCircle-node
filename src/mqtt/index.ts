@@ -7,5 +7,10 @@ export class MqttServer {
   mqttClient: MqttClient;
 
   @SubscribeMessage('test')
-  async subscribeMessageTest(@MessageBody() message: string, @Client() client: MqttClient) {}
+  async subscribeMessageTest(@MessageBody() message: string, @Client() client: MqttClient) {
+    console.log(message);
+    
+  }
 }
+
+
