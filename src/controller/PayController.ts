@@ -28,7 +28,7 @@ export default class PayController {
   }
 
   @Get('/findPayById')
-  async findPay(@Query('id') id) {
+  async findPay(@Query('userid') id) {
     return await this.payDao.selectById(id);
   }
 

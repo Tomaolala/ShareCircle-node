@@ -1,7 +1,7 @@
 import { ConfigOptions } from './snow/configuration';
 
 const config: ConfigOptions = {
-  port: 8901,
+  port: 9999,
   rootPath: '/api',
   database: {
     host: '127.0.0.1',

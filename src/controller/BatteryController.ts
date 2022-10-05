@@ -7,6 +7,8 @@ export default class AccoutController {
     @Post("/getBattery")
     async getBattery(@Body() battery)
     {
-        return this.batteryDao.select(battery.params,battery.limit,battery.order)
+        return this.batteryDao.select({
+            number:battery.number
+        },battery.limit,battery.order)
     }
 }
