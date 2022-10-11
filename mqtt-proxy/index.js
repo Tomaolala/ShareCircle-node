@@ -1,6 +1,6 @@
 const mosca = require('mosca');
 const config = require('./config');
-
+const dayjs =require('dayjs')
 const { port, hardwareClientId } = config;
 
 const mqttSetting={
@@ -27,14 +27,14 @@ server.on('ready', setup);
 
 server.on('clientConnected', function (client) {
   if (!client) return;
-  console.log('连接：', client.id);
+  console.log('连接：', client.id,dayjs(new Date()).format('YYYY-MM-DD HH-mm-ss'));
 
   connector.add(client.id);
 });
 
 server.on('clientDisconnected', function (client) {
   if (!client) return;
-  console.log('断开连接：', client.id);
+  console.log('断开连接：', client.id,dayjs(new Date()).format('YYYY-MM-DD HH-mm-ss'));
 
   connector.delete(client.id);
 });

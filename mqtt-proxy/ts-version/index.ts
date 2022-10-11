@@ -20,13 +20,12 @@ server.on('clientConnected', function (client: Client) {
 server.on('clientDisconnected', function (client: Client) {
   if (!client) return;
   console.log('断开连接：', client.id);
-
   connector.delete(client.id);
 });
 
 server.on('published', (packet: Packet, client: Client) => {
   if (!packet || !client) return;
-  console.log('published', packet);
+  console.log('published', packet.payload);
 
   const { topic } = packet;
   const { id: clientId } = client;

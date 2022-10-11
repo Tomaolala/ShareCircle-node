@@ -12,4 +12,15 @@ export default class DeviceController {
     async  getAllBikes(){
         return this.deviceDao.getAllBikes()
     }
+
+    @Post("/addBike")
+    async getAddBike(@Body() bike){
+        
+        // this.deviceDao.insert({
+        //     device_name:"bike",
+        //     status:"1",          
+        //     remarks:bike.remarks,
+        //     battery_id:bike.battery_id
+        // })
+    }
 }
